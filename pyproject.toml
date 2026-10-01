@@ -7,4 +7,10 @@ requires-python = ">=3.14"
 dependencies = [
     "iplantuml>=0.1.1",
     "ipykernel>=7.3.0",
+    "rich>=15.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
 ]
